@@ -22,6 +22,7 @@
   <li><h3>modle.py</h3></li>
   <p>用于训练与测试模型</p>
   <p>可以在此文件中更改self.epoch为你需要的epoch数</p>
+  <p>可以更改self.optimizer中的lr为你需要的学习率</p>
   <li><h3>visual.py</h3></li>
   <p>进行所有可视化操作，包括训练过程中acc-loss的变化曲线，测试集的混淆矩阵
     <p><i>请注意：该项目中的混淆矩阵对y轴进行了翻转操作</i></p>
