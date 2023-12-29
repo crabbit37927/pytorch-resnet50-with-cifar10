@@ -18,8 +18,10 @@
   <p>用于运行主程序</p>
   <li><h3>get_data.py</h3></li>
   <p>用于下载cifar-10数据，并对数据进行预处理</p>
+  <p>可以在此文件中更改self.train_batch_size与self.test_batch_size为你需要的batch size</p>
   <li><h3>modle.py</h3></li>
   <p>用于训练与测试模型</p>
+  <p>可以在此文件中更改self.epoch为你需要的epoch数</p>
   <li><h3>visual.py</h3></li>
   <p>进行所有可视化操作，包括训练过程中acc-loss的变化曲线，测试集的混淆矩阵
     <p><i>请注意：该项目中的混淆矩阵对y轴进行了翻转操作</i></p>
