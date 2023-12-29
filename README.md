@@ -1,0 +1,2 @@
+# resnet50-cifar10-
+本仓库基于resnet50网络，运用pytorch对cifar10进行分类，可以调用另外两种网络densenet，goooglenet与resnet50网络进行对比
